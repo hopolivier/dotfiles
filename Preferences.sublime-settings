@@ -22,9 +22,6 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"BracketHighlighter",
-		"DocBlockr",
-		"Ruby on Rails snippets",
 		"Vintage"
 	],
 	"remember_open_files": false,
