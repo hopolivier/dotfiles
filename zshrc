@@ -28,7 +28,8 @@ export NVM_DIR="$HOME/.nvm"
 # Rails and Ruby uses the local `bin` folder to store binstubs.
 # So instead of running `bin/rails` like the doc says, just run `rails`
 # Same for `./node_modules/.bin` and nodejs
-export PATH="./bin:./node_modules/.bin:${PATH}:/usr/local/sbin:/usr/local/mysql"
+# appended /usr/local/mysql/bin after mysql install on iMac
+export PATH="./bin:./node_modules/.bin:${PATH}:/usr/local/sbin:/usr/local/mysql/bin"
 
 # Load 'yacka' virtualenv for the Data Bootcamp. You can comment these 2 lines to disable this behavior.
 #export PYENV_VIRTUALENV_DISABLE_PROMPT=1
